@@ -1,0 +1,131 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family:Hanken Grotesk;
+}
+
+
+.container {
+    box-shadow: 20px 30px 30px hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 790px;
+    max-height: 515px;
+    border-radius: 50px;
+}
+
+.box1 {
+    background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 370px;
+    height: 515px;
+    border-radius: 50px;
+    color: hsl(241, 71%, 85%);
+    font-weight: 400;
+    
+}
+
+.circle {
+    background: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 210px;
+    height: 180px;
+    border-radius: 100%;
+    margin-left: 80px;
+    padding-top: 30px;
+    color: hsl(240, 25%, 66%);
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 68px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: white;
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+.box2 {
+    width: 300px;
+    height: 515px;
+    margin:40px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color:  hsl(224, 30%, 27%);
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+}
+
+img {
+    height: 60px;
+    width: 18px;
+}
+
+.result {
+    color:  hsl(240, 9%, 59%);
+    font-size: 18px;
+}
+
+b {
+  color: hsl(224, 30%, 27%)
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.red{
+    background-color: hsl(0, 100%, 97%);
+    border-radius: 10px;
+    color: hsl(0, 100%, 67%);
+}
+.yellow{
+    background-color: hsl(39, 100%, 97%);
+    border-radius: 10px;
+    color: hsl(39, 100%, 56%);
+}
+.green{
+    background-color: hsl(166, 100%, 97%);
+    border-radius: 10px;
+    color: hsl(166, 100%, 37%);
+}
+.blue{
+    background-color: hsl(234, 85%, 97%);
+    border-radius: 10px;
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-left: 0;
+    border: none;
+    background-color:hsl(224, 30%, 27%);
+    width: 300px;
+    height: 55px;
+    border-radius: 50px;
+    font-family:Hanken Grotesk;
+    color: hsl(221, 100%, 96%);
+}
